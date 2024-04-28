@@ -6,6 +6,9 @@ IC.DeploymentType                       = "dev"         -- dev, prod
                                                         -- This dictates whether or not to print all debug traces in all RPX resources to the console.
                                                         -- This is especially useful if you don't want your console spammed with debug messages or random bullshit on client and server side.
 
+IC.CrashMonitor                        = false          -- Set to true to enable the crash monitor. This is a community tool to track redm crashes. (https://monitor.gtp-dev.com/)
+IC.CrashMonitorAPIKey                  = "YOUR_API_KEY" -- Needed to enable the crash monitor. (https://monitor.gtp-dev.com/howto)
+
 IC.MaxCharactersPerPlayer               = 4
 
 IC.Player = {}
